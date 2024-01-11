@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000", "https://movie-mingle-fe.onrender.com"],
   })
 );
 app.use(cookieParser());
