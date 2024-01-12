@@ -20,7 +20,7 @@ Movie Mingle is a social media platform designed for movie enthusiasts to connec
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Movie_Mingle_BackEnd.git
+   git clone https://github.com/Nepalimolly/Movie_Mingle_BackEnd.git
 
 cd movie-mingle-backend
 npm install
