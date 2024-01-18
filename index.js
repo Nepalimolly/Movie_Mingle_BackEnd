@@ -20,11 +20,7 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://movie-mingle-fe.onrender.com"],
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    credentials: true,
-    optionsSuccessStatus: 204,
-    allowedHeaders: "Content-Type,Authorization",
+    origin: "http://localhost:3000",
   })
 );
 app.use(cookieParser());
